@@ -14,11 +14,12 @@ namespace Proiect_ONG___Backend.Models
         public int nrAprecieri { get; set; }
         public int nrComentarii { get; set; }
         public int tipPostare { get; set; }
-        public int sumaNecesaraDonatie { get; set; }
-        public int sumaActualaDonatie { get; set; }
-        public double procentDonatie { get; set; }
-        public int nrVoluntari { get; set; }
-        public DateTime dataEveniment {  get; set; }
+        public int? sumaNecesaraDonatie { get; set; }
+        public int? sumaActualaDonatie { get; set; }
+        public double? procentDonatie { get; set; }
+        public int? nrVoluntariNecesari { get; set; }
+        public int? nrVoluntariActuali {  get; set; }
+        public DateTime? dataEveniment {  get; set; }
 
     }
 }
